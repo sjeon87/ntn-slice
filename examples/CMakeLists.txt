@@ -3,7 +3,7 @@ build_lib_example(
   SOURCE_FILES ntn-three-slice-leo-geo.cc
   LIBRARIES_TO_LINK
     ${libntn-slice}
-    ${libntn-traffic}
+    ${libtraffic}
     ${libntn-cho}
     ${libntn-constellation}
     ${libcore}
@@ -23,7 +23,7 @@ build_lib_example(
   SOURCE_FILES ntn-slice-isolation-traffic.cc
   LIBRARIES_TO_LINK
     ${libntn-slice}
-    ${libntn-traffic}
+    ${libtraffic}
     ${libntn-cho}
     ${libntn-constellation}
     ${libcore}
@@ -44,7 +44,7 @@ build_lib_example(
   LIBRARIES_TO_LINK
     ${libntn-observability}
     ${libntn-slice}
-    ${libntn-traffic}
+    ${libtraffic}
     ${libntn-cho}
     ${libntn-constellation}
     ${libcore}
